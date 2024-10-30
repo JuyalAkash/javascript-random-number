@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Random Number Generator- JS</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="a" id="playerA">
+        <h1 class="playerA">Player A</h1>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <div class="boxA box"></div>
+        <button type="button" id="btn1" onclick="getRandomNumber(this.id)">
+          Click
+        </button>
+      </div>
+      <div class="display" id="display">
+        <h1 id="text">Dice Number</h1>
+        <p id="result"></p>
+        <h2 id="win"></h2>
+      </div>
+      <div class="b" id="playerB">
+        <h1>Player B</h1>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <div class="boxB box"></div>
+        <button type="button" id="btn2" onclick="getRandomNumber(this.id)">
+          Click
+        </button>
+      </div>
+    </div>
+    <button type="button" class="reloadBtn" id="reloadBtn">
+      Reload the game
+    </button>
+  </body>
+</html>
